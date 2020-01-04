@@ -1,0 +1,1 @@
+{"ast":null,"code":"import web3 from './web3';\nimport Poll from './build/Poll.json';\nexport default (address => {\n  return new web3.eth.Contract(JSON.parse(Poll.interface), address);\n});","map":null,"metadata":{},"sourceType":"module"}

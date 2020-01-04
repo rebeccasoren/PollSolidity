@@ -1,0 +1,1 @@
+{"ast":null,"code":"import web3 from './web3';\nimport Poll from './build/Poll.json';\nvar instance = new web3.eth.Contract(JSON.parse(Poll[\"interface\"]), '0x2fc9B197E66bE1ccBf3897f6a40BaA64BD07EC24');\nexport default instance;","map":null,"metadata":{},"sourceType":"module"}
