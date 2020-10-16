@@ -4,9 +4,8 @@
   "description": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "start": "next",
-    "dev": "node server.js"
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC",

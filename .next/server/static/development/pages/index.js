@@ -118,25 +118,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* harmony default export */ __webpack_exports__["default"] = (props => {
   return __jsx("div", {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
+      lineNumber: 8,
+      columnNumber: 9
+    }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
+      lineNumber: 9,
+      columnNumber: 13
+    }
   }, __jsx("link", {
     rel: "stylesheet",
     href: "//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: undefined
+      lineNumber: 10,
+      columnNumber: 17
+    }
   })), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Segment"], {
     inverted: true,
     textAlign: "center",
@@ -145,70 +148,79 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       padding: '1em 0em'
     },
     vertical: true,
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: undefined
+      lineNumber: 12,
+      columnNumber: 13
+    }
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"], {
     inverted: true,
     pointing: true,
     secondary: true,
     size: "large",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: undefined
+      lineNumber: 13,
+      columnNumber: 17
+    }
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: undefined
+      lineNumber: 14,
+      columnNumber: 21
+    }
   }, __jsx(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     route: "/ongoing",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
+      lineNumber: 15,
+      columnNumber: 25
+    }
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
     as: "a",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: undefined
+      lineNumber: 16,
+      columnNumber: 29
+    }
   }, "Ongoing Polls")), __jsx(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     route: "/results",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: undefined
+      lineNumber: 20,
+      columnNumber: 25
+    }
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
     as: "a",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: undefined
+      lineNumber: 21,
+      columnNumber: 29
+    }
   }, "Results")), __jsx(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     route: "/",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: undefined
+      lineNumber: 25,
+      columnNumber: 25
+    }
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
     as: "a",
     position: "right",
+    __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: undefined
+      lineNumber: 26,
+      columnNumber: 29
+    }
   }, "Manager")))), props.children));
 });
 
@@ -268,47 +280,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
-  \*******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "core-js/library/fn/object/define-property");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -318,48 +289,50 @@ function _defineProperty(obj, key, value) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _ethereum_poll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ethereum/poll */ "./ethereum/poll.js");
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../routes */ "./routes.js");
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_5__);
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ethereum_poll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../ethereum/poll */ "./ethereum/poll.js");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../routes */ "./routes.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/home/rebecca/PollSolidity/pages/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
 
 
-class PollIndex extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+
+class PollIndex extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "state", {
+    _defineProperty(this, "state", {
       manager: 'No one'
     });
   }
 
   async componentDidMount() {
-    const manager = await _ethereum_poll__WEBPACK_IMPORTED_MODULE_2__["default"].methods.manager().call();
+    const manager = await _ethereum_poll__WEBPACK_IMPORTED_MODULE_1__["default"].methods.manager().call();
     this.setState({
       manager
     });
   }
 
   render() {
-    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__["Header"], {
+        lineNumber: 20,
+        columnNumber: 13
+      }
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Header"], {
       as: "h3",
       content: "This poll is managed by",
       inverted: true,
@@ -369,12 +342,13 @@ class PollIndex extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         marginBottom: 0,
         marginTop: '3em'
       },
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
-      },
-      __self: this
-    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__["Header"], {
+        lineNumber: 21,
+        columnNumber: 17
+      }
+    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Header"], {
       as: "h3",
       content: this.state.manager,
       inverted: true,
@@ -383,26 +357,29 @@ class PollIndex extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
         fontWeight: 'normal',
         marginTop: '1.5em'
       },
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }), __jsx(_routes__WEBPACK_IMPORTED_MODULE_5__["Link"], {
+        lineNumber: 32,
+        columnNumber: 17
+      }
+    }), __jsx(_routes__WEBPACK_IMPORTED_MODULE_4__["Link"], {
       route: "/ongoing",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+        lineNumber: 42,
+        columnNumber: 17
+      }
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Button"], {
       primary: true,
       size: "huge",
+      __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
-      },
-      __self: this
+        lineNumber: 43,
+        columnNumber: 21
+      }
     }, "View Poll")));
   }
 
@@ -435,17 +412,6 @@ module.exports = routes;
 
 module.exports = __webpack_require__(/*! /home/rebecca/PollSolidity/pages/index.js */"./pages/index.js");
 
-
-/***/ }),
-
-/***/ "core-js/library/fn/object/define-property":
-/*!************************************************************!*\
-  !*** external "core-js/library/fn/object/define-property" ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("core-js/library/fn/object/define-property");
 
 /***/ }),
 
