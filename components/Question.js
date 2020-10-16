@@ -40,7 +40,6 @@ class Question extends Component{
                 errorMessage: err.message
             });   
         }
-
         this.setState({loading: false});
     };
 
@@ -60,7 +59,7 @@ class Question extends Component{
         }
         catch(err){
             this.setState({
-                errorMessage: err.message
+                errorMessage: err.message,
             });   
         }
 
@@ -78,10 +77,15 @@ class Question extends Component{
     render(){
         const er=this.state.errorMessage;
         const {question,complete} = this.props;
-        
-        if(er)
+
+        //console.log(this.state.errorMessage)
+        if(er == 'No "from" address specified in neither the given options, nor the default options.'){
+            alert('Your MetaMask wallet is not configured properly!');
+            console.log('Metamask account should be set to Rinkeby testnet and allow access to this website');
+        } else if(er){
             alert(er)
-        
+        }
+            
         return(
             <Card.Group centered>
             {complete ? null : (

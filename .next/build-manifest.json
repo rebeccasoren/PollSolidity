@@ -27,7 +27,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/ongoing": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/ongoing/add": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/results": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

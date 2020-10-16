@@ -196,7 +196,7 @@ let web3;
 
 if (false) {} else {
   // We are on the server *OR* the user is not running metamask
-  const provider = new web3__WEBPACK_IMPORTED_MODULE_0___default.a.providers.HttpProvider('https://rinkeby.infura.io/orDImgKRzwNrVCDrAk5Q');
+  const provider = new web3__WEBPACK_IMPORTED_MODULE_0___default.a.providers.HttpProvider('https://rinkeby.infura.io/v3/3087361227fe4d54ab0a60d814db74b3');
   web3 = new web3__WEBPACK_IMPORTED_MODULE_0___default.a(provider);
 }
 
