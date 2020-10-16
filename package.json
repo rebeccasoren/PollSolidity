@@ -1,7 +1,7 @@
 {
   "name": "poll",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -22,5 +22,19 @@
     "solc": "^0.4.17",
     "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.0.0-beta.35"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebeccasoren/PollSolidity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rebeccasoren/PollSolidity/issues"
+  },
+  "homepage": "https://github.com/rebeccasoren/PollSolidity#readme",
+  "engines": {
+    "node": "10.x"
   }
 }
