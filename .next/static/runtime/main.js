@@ -5157,7 +5157,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/nixi/EthWorkspace/poll/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/rebecca/PollSolidity/.next");
       return error;
     }
   };
@@ -11104,3 +11104,4 @@ module.exports = dll_5f137288facb1107b491;
 /***/ })
 
 },[["./node_modules/next/dist/client/next-dev.js","static/runtime/webpack.js"]]]);
+//# sourceMappingURL=main.js.map
