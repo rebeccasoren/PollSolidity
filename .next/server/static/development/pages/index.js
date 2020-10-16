@@ -110,36 +110,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../routes */ "./routes.js");
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/rebecca/PollSolidity/components/Layout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (props => {
-  return __jsx("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
-    }
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 13
-    }
-  }, __jsx("link", {
+  return __jsx("div", null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx("link", {
     rel: "stylesheet",
-    href: "//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 17
-    }
+    href: "//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
   })), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Segment"], {
     inverted: true,
     textAlign: "center",
@@ -147,80 +126,25 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       minHeight: 700,
       padding: '1em 0em'
     },
-    vertical: true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 13
-    }
+    vertical: true
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"], {
     inverted: true,
     pointing: true,
     secondary: true,
-    size: "large",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 17
-    }
-  }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 21
-    }
-  }, __jsx(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-    route: "/ongoing",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 25
-    }
+    size: "large"
+  }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    route: "/ongoing"
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-    as: "a",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 29
-    }
+    as: "a"
   }, "Ongoing Polls")), __jsx(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-    route: "/results",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 25
-    }
+    route: "/results"
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-    as: "a",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 29
-    }
+    as: "a"
   }, "Results")), __jsx(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
-    route: "/",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 25
-    }
+    route: "/"
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
     as: "a",
-    position: "right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 29
-    }
+    position: "right"
   }, "Manager")))), props.children));
 });
 
@@ -297,7 +221,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../routes */ "./routes.js");
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/home/rebecca/PollSolidity/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -325,14 +248,7 @@ class PollIndex extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20,
-        columnNumber: 13
-      }
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Header"], {
+    return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Header"], {
       as: "h3",
       content: "This poll is managed by",
       inverted: true,
@@ -341,12 +257,6 @@ class PollIndex extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         fontWeight: 'normal',
         marginBottom: 0,
         marginTop: '3em'
-      },
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 17
       }
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Header"], {
       as: "h3",
@@ -356,30 +266,12 @@ class PollIndex extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         fontSize: '1.7em',
         fontWeight: 'normal',
         marginTop: '1.5em'
-      },
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32,
-        columnNumber: 17
       }
     }), __jsx(_routes__WEBPACK_IMPORTED_MODULE_4__["Link"], {
-      route: "/ongoing",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 17
-      }
+      route: "/ongoing"
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__["Button"], {
       primary: true,
-      size: "huge",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43,
-        columnNumber: 21
-      }
+      size: "huge"
     }, "View Poll")));
   }
 
@@ -471,4 +363,3 @@ module.exports = require("web3");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
