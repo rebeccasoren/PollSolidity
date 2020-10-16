@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-       "test":"mocha",
-    　　"dev": "node server.js",
-    　　"build": "next build",
-    　　"start": "NODE_ENV=production node server.js",
-    　　"heroku-postbuild": "next build"
- 　　 },
+    "test": "mocha",
+    "start": "next",
+    "dev": "node server.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

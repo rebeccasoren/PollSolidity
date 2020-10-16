@@ -1188,4 +1188,3 @@ module.exports = g;
 /***/ })
 
 },[["./node_modules/next/dist/client/polyfills.js","static/runtime/webpack.js"]]]);
-//# sourceMappingURL=polyfills.js.map
