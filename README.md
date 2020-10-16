@@ -5,7 +5,8 @@
 > A solidity smart contract for a Polling system. Click [here](https://fast-sierra-82442.herokuapp.com/) for the deployed application
 
 ## Prerequisites
-[Metamask extension](https://github.com/MetaMask) with ether is required to interact with the contract 
+[Metamask extension](https://github.com/MetaMask) with ether is required to interact with the contract.
+**Ensure your Metamask account is pointing to the Rinkeby Testnet** and is connected to the website (may need to do this manually! Find 'connected sites' option)
 
 ## Contract Details 
 The current version of the contract is deployed by account ```0x69aED79C0D76D38e8C8D173ccdb3EE9ddb6856ae``` to ```0x405aeE0836fcC5c7EEF08D4061934c77E3AF460E``` on the Rinkeby Test Network.
